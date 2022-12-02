@@ -1,0 +1,65 @@
+
+.homePg-Container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+img{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.homePg-Header{
+ 
+background-image: url(../images/logo.png);
+width: 95vw;
+height: 20vh;
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+h3{
+    font-size: 2rem;
+
+}
+
+.homePg-whatWeDo{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0;
+
+    ul{
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    li{
+        font-size: 1.3rem;
+       list-style: none;
+        margin: 1rem;
+        width: 75vw;
+       
+        color: black;
+box-shadow: 0 0 10px 5px yellow;
+     }
+     li:hover{
+        background-color: rgb(48, 47, 47);
+        list-style: none;
+         margin: 1rem;
+         width: 35vw;
+         color: rgb(226, 250, 6);
+ box-shadow: 0 0 10px 5px rgb(250, 99, 5);
+      }
+}
+
+a:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+
+.slider-container{
+    width: 100%;
+    height: 100%;
+display: flex;
+justify-content: center;
+
+.one{
+    
+    background:url(../images/Hyndai520.jpg);
+    width: 90vw;
+    height:350px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: slideIn 5s linear infinite;
+}
+.two{
+    background:url(../images/CAT-onTruck.jpg);
+    width: 90vw;
+    height:350px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: slideIn 5s linear infinite;
+}
+.three{
+    background:url(../images/Pipes.jpg);
+    width: 90vw;
+    height:350px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: slideIn 5s linear infinite;
+}
+.four{
+    background:url(../images/IsuzuTruck.jpg);
+    width: 90vw;
+    height:350px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: slideIn 5s linear infinite;
+}
+.five{
+    background:url(../images/a.jpg);
+    width: 90vw;
+    height:350px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: slideIn 5s linear infinite;
+}
+.six{
+    background:url(../images/winget.jpg);
+    width: 90vw;
+    height:350px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: slideIn 5s linear infinite;
+}
+
+
+}
