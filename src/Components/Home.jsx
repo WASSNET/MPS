@@ -10,49 +10,54 @@ import icon6 from "./images/icon6.png";
 
 import HomePgSlide from "./HomePg-Slide";
 
+import { content } from "./Contents/Contents";
+
+import { SidePanelPg } from "./SidePanel";
+
 export const Home=()=>{
 
     return(  <div className="homePg homePg-Container">
+
+<SidePanelPg />
+
     <div className="homePg homePg-Header">
     
     </div>
+    
     <div className="homePg homePg-ImgSlide">
        <HomePgSlide />
     </div>
 
     
-    <img src={icon1} alt="ICON image" style={{height:"150px", width:"150px"}} />
+    <img className="homePg-icon1" src={icon1} alt="ICON image" />
 
-    <h3>Here at MPS we offer a wide range of services</h3>
     <ul className="homePg homePg-whatWeDo">
 
-    <img src={icon6} alt="ICON image" style={{height:"100px", width:"100px"}} />
-    <li >
-       Refurbishing commercial and industrial grade construction and mining equipment vehicles, and trailers.
-    </li>
+    <h3>Here at MPS we offer a wide range of skills and services</h3>
 
-    <img src={icon4} alt="ICON image" style={{height:"100px", width:"100px"}} />
-    <li>
-       Restorations to cars, trailers, campers, tracktors and lots more!
-    </li>
+    <hr></hr>
 
-    <img src={icon2} alt="ICON image" style={{height:"100px", width:"100px"}} />
-    <li>
-       Sand Blasting
-    </li>
+<img className="homePg-icon" src={icon6} alt="ICON image" style={{height:"100px", width:"100px"}} />
 
-    <img src={icon3} alt="ICON image" style={{height:"100px", width:"100px"}} />
-    <li>
-       Painting
-    </li>
 
-    <img src={icon5} alt="ICON image" style={{height:"100px", width:"100px"}} />
-    <li>
-      Check out our <a>Services</a> page for more info. OR <a>CONTACT US</a>!!!
-    </li>
-    
-     </ul>
-    
+<li >
+   {content.homePgAboutTxt}
+</li>
+
+<img className="homePg-icon" src={icon4} alt="ICON image" style={{height:"100px", width:"100px"}} />
+<li>
+   {content.homePgServicesTxt}
+</li>
+
+<img className="homePg-icon" src={icon2} alt="ICON image" style={{height:"100px", width:"100px"}} />
+<li>
+ 
+{content.homeCbUpholstery}
+</li>
+
+<h3><a href="">Have a look at our services page to learn more</a> </h3>
+
+ </ul>
 
     </div>)
   

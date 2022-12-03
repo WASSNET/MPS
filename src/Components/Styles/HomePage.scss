@@ -4,6 +4,7 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    background-color: #FAFAFA;
     
 }
 
@@ -11,23 +12,26 @@ img{
     text-align: center;
     justify-content: center;
     margin: auto;
+    margin-top: 1.5rem;
 }
 
 .homePg-Header{
- 
+ text-align: center;
+ justify-content: center;
 background-image: url(../images/logo.png);
 width: 95vw;
 height: 20vh;
 background-repeat: no-repeat;
 background-size: contain;
-
+margin: auto;
 }
 h3{
-    font-size: 2rem;
+    font-size: 2.2rem;
 
 }
 
 .homePg-whatWeDo{
+    background-color: #E0BB20;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -42,24 +46,83 @@ h3{
     }
 
     li{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
        list-style: none;
         margin: 1rem;
         width: 75vw;
        
         color: black;
-box-shadow: 0 0 10px 5px yellow;
+box-shadow: 0 0 10px 5px black;
      }
      li:hover{
         background-color: rgb(48, 47, 47);
         list-style: none;
          margin: 1rem;
-         width: 35vw;
-         color: rgb(226, 250, 6);
- box-shadow: 0 0 10px 5px rgb(250, 99, 5);
+         width: 75vw;
+         color: #E0BB20;
+ box-shadow: 0 0 10px 5px #841818;
       }
 }
 
 a:hover{
     cursor: pointer;
+}
+
+.homePg-icon{
+    background-color: #841818;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+hr{
+    text-align: center;
+    margin: 0.7rem 0 0.8rem 0;
+    display: block;
+    width: 100vw;
+    border-top: 2rem dotted black;
+    border-bottom: 0 none transparent;
+
+}
+
+.homePg-icon1{
+
+    margin-bottom: 4rem;
+    margin-top:1.5rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.sidePanel{
+    display: none;
+}
+
+@media(min-width:32rem){
+    
+.homePg-Header{
+    width: 100%;
+   height: 20vw;
+    text-align: center;
+    justify-content: center;
+   background-image: url(../images/logo.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   margin: auto;
+   margin-bottom: 3rem;
+   }
+
+   
+.sidePanel{
+    background-image: url(../images/sidePanel.jpg);
+    width: 20vw;
+    height:100vh;
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .6;
+}
 }
