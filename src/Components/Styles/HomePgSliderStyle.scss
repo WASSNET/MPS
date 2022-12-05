@@ -8,8 +8,8 @@ justify-content: center;
 .one{
     
     background:url(../images/Hyndai520.jpg);
-    width: 90vw;
-    height:350px;
+    width: 500px;
+    height:400px;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,8 +18,8 @@ justify-content: center;
 }
 .two{
     background:url(../images/CAT-onTruck.jpg);
-    width: 90vw;
-    height:350px;
+    width:500px;
+    height:400px;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,8 +28,8 @@ justify-content: center;
 }
 .three{
     background:url(../images/Pipes.jpg);
-    width: 90vw;
-    height:350px;
+    width: 500px;
+    height:400px;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,8 +38,8 @@ justify-content: center;
 }
 .four{
     background:url(../images/IsuzuTruck.jpg);
-    width: 90vw;
-    height:350px;
+    width: 500px;
+    height:400px;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,8 +48,8 @@ justify-content: center;
 }
 .five{
     background:url(../images/a.jpg);
-    width: 90vw;
-    height:350px;
+    width: 500px;
+    height:400px;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ justify-content: center;
 }
 .six{
     background:url(../images/winget.jpg);
-    width: 90vw;
+    width: 500px;
     height:350px;
     text-align: center;
     background-position: center;
@@ -68,4 +68,10 @@ justify-content: center;
 }
 
 
+}
+
+@media(min-width:32rem){
+    .slider-container{
+        margin-top: 3rem;
+    }
 }

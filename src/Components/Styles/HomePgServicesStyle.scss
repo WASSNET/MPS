@@ -1,0 +1,58 @@
+
+@media(min-width:32rem){
+.homeServicesPg{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        background-image: url(../images/homeServices.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        
+    }    
+
+    li{
+        margin: auto;
+        text-align: center;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        width: 50vw;
+        background-color: black;
+         color: #E0BB20;
+       
+    }
+
+    li:hover{
+        margin: auto;
+        text-align: center;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        width: 50vw;
+        background-color: rgb(48, 47, 47);
+         color: white;
+ box-shadow: 0 0 10px 5px #841818;
+      }
+
+    img{
+        margin-top: 2.2rem;
+        opacity: 1;
+    }
+
+    a{
+        margin: 2rem 2rem 0 2rem;
+    }
+}
+
+}
