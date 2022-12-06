@@ -1,7 +1,14 @@
 
-@media(min-width:32rem){
-.homeServicesPg{
+.servicesLink{
+margin: 1.4rem 1rem 1rem 1rem;
+}
 
+@media(min-width:32rem){
+    .servicesLink{
+
+    }
+.homeServicesPg{
+    padding-bottom: rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

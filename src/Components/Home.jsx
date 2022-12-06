@@ -6,7 +6,7 @@ import { HomePgServices } from "./HomePg-Services";
 
 import { SidePanelPg } from "./SidePanel";
 
-export const Home=()=>{
+const Home=()=>{
 
     return(  <div className="homePg homePg-Container">
 
@@ -23,3 +23,4 @@ export const Home=()=>{
     </div>)
   
 }
+export default Home;

@@ -1,6 +1,6 @@
 
 
-export const Services = () =>{
+const Services = () =>{
 
     return(
     <div className="Services-container">
@@ -43,3 +43,5 @@ export const Services = () =>{
     </div>
     );
 }
+
+export default Services;

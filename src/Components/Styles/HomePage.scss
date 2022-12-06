@@ -38,6 +38,8 @@ h3{
     flex-wrap: wrap;
     margin: auto;
     padding: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
     ul{
         margin: 0;
@@ -166,6 +168,7 @@ hr{
    background-position: center;
    margin: auto;
    margin-bottom: 3rem;
+   margin-top: 3.5rem;
    }
 
    
@@ -178,6 +181,7 @@ hr{
     left: 0;
     top: 0;
     margin:0;
+    margin-top: 2rem;
     background-size: contain;
     background-repeat: no-repeat;
 }
