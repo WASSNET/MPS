@@ -1,44 +1,33 @@
 
+import "./Styles/ServicesStyles.scss";
+
+import { ServicesPanels } from "./ServicesPanels";
 
 const Services = () =>{
 
     return(
     <div className="Services-container">
-<ul>
-    <h3>Services</h3>
-    <ul>
-    <h4>refurbishing </h4>
-    <li>commercial and industrial grade construction and mining equipment</li>
-    <li>Vehicles</li>
-    <li>Trailers</li>
-    <li>Upolstery</li>
-    </ul>
+
+    <div className="servicesHeader">
     
-    <ul>
-    <h4>Sand Blasting and painting </h4>
-    <li>all vehicle and material types</li>
-    </ul>
+    </div>
+    <div>
+</div>
 
-    <ul>
-    <h4>Complete rebuilds </h4>
-    <li>commercial and industrial grade construction and mining equipment and vehicles</li>
-    <li>Diesle and petrol engines</li>
-    <li>old or new resorations</li>
-    <li>Trailers</li>
-    </ul>
 
-    <ul>
-    <h4>Exporting</h4>
-    <li>commercial and industrial grade construction and mining parts and equipment</li>
-    </ul>
+    <ServicesPanels />
 
-    <ul>
-    <h4>servicing</h4>
-    <li>commercial and industrial grade construction and mining equipment and Vehicles</li>
-    <li>Trailers</li>
-    </ul>
+    <div>
 
-    </ul>
+        <h4><a href="contact">Contact us</a> with any questions.</h4>
+    </div>
+
+    
+
+    <div className="servicesGallery">
+
+    </div>
+
 
     </div>
     );

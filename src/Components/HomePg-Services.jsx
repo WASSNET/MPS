@@ -42,7 +42,7 @@
 {content.homeCbUpholstery}
 </li>
 <br></br>
-<h3 className="servicesLink"><a href="">Have a look at our services page to learn more</a> </h3>
+<h3 className="servicesLink"><a href="services">Have a look at our services page to learn more</a> </h3>
 
 </ul>
         </div>

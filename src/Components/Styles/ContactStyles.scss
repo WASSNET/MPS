@@ -1,0 +1,21 @@
+
+
+.ContactContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.contactHeader{
+    background-image: url(../images/contactHeader.png);
+    width: 100vw;
+    height: 24.3vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    h1{
+        text-align: center;
+        font-size: 3rem;
+        margin: 4.5rem 8rem 0 0;
+    }
+}
