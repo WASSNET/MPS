@@ -19,3 +19,24 @@ export const SlideData=[
         image:"six"
     }
 ]
+
+export const GallerySlideData=[
+    {
+        image:"gone"
+    },
+    {
+        image:"gtwo"
+    },
+    {
+        image:"gthree"
+    },
+    {
+        image:"gfour"
+    },
+    {
+        image:"gfive"
+    },    
+    {
+        image:"gsix"
+    }
+]

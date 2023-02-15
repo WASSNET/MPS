@@ -137,3 +137,87 @@ align-items: center;
 align-self: center;
 margin: auto;
 }
+
+@media(min-width:32rem)
+{
+    .Services-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+
+        h4{
+            margin: 1rem;
+            text-align: center;
+            font-size: 1.5rem;
+            width: 100%;
+            text-align: center;
+        }
+    
+    }
+    
+    .servicesHeader{
+    background-image: url(../images/servicesHeader.png);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    background-repeat: no-repeat;
+    height:60vh;
+    }
+    
+    .servicesPanels{
+        background-image:linear-gradient(to right, rgba(231, 235, 44, 0.5), rgb(215, 230, 13,.5),rgba(247, 222, 0, 0.5)) ;
+    background-position: center;
+    background-size: cover;
+    width:100vw;
+    height:100%;
+    background-repeat: no-repeat;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    h4{
+        margin: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    }
+    
+    
+    .servicespanel
+    {
+         background-image:linear-gradient(to right, rgba(231, 235, 44, 0.5), rgb(215, 230, 13,.5),rgba(247, 222, 0, 0.5)) ;
+        text-align: left;
+        justify-content: center;
+    align-items: center;
+    align-self: center;
+        padding: .5rem;
+        margin:1.2rem;
+        font-size: 1.3rem;
+        width: 40vw;
+        color: rgb(0, 0, 0);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+        h4{
+            margin-bottom: 1.2rem;
+            text-align: center;
+        }
+    
+        li{
+            margin: .5rem;
+            text-align: center;
+        }
+    }
+
+    .servicesGallery{
+background-position: center;
+margin-bottom: 2rem;
+    }
+}

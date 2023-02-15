@@ -8,7 +8,7 @@ import Footer from './Components/Footer';
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
 import Upholstering from "./Components/Upholstering";
-
+import Gallery from "./Components/Gallery";
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,7 @@ function App() {
 <Route path="/" element=<Home/> />
 <Route path='Services' element=<Services /> />
 <Route path='Upholstering' element=<Upholstering/> />
+<Route path='Gallery' element=<Gallery/> />
 <Route path='Contact' element=<Contact /> />
 
 </Routes>

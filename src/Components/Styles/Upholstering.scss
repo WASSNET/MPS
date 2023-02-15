@@ -1,0 +1,53 @@
+
+.upholsteringContainer{
+display: flex;
+flex-direction: column;
+margin: auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-image: linear-gradient(black, white);
+}
+
+.upholsteringHeader{
+    text-align: center;
+    background-image: url(../images/upholseteringHeader.png);
+    width: 100vw;
+    height: 24.5vh;
+    background-size: contain;
+    padding: 0;
+    margin: auto;
+    h1{
+        text-align: center;
+        margin: auto;
+        align-self: center;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        align-self: center;
+        margin-top: 6rem;
+        background-color: black;
+        opacity: .7;
+    }
+}
+
+.upholsteringIntro{
+
+    background-image: url(../images/introBg.png);
+    background-size: cover;
+    height: 35vh;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 1.3rem;
+    padding:2.5rem;
+
+}
+.upholstering-grids{
+    background-image: url(../images/upholsteryBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+font-size:1.3rem;
+height:24vh;
+width: 100vw;
+margin: 0;
+padding: 0;
+}

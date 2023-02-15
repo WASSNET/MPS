@@ -1,0 +1,72 @@
+
+
+.mainWrapper{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(19, 19, 19));
+}
+
+.GalleryHeader{
+    background-image: url(../images/trailerInspect.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 35vh;
+}
+
+.GalleryHeaderIntro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+
+    h1{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        align-self: center;
+        
+    }
+
+}
+
+@media(min-width:32rem){
+    .mainWrapper{
+        background-image: linear-gradient(rgb(255, 255, 255),rgb(19, 19, 19));
+    }
+    
+    .GalleryHeader{
+        background-image: url(../images/trailerInspect.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 50vh;
+    }
+    
+    .GalleryHeaderIntro{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+    
+        h1{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            align-self: center;
+            font-size: 5rem;
+        }
+        h2{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            align-self: center;
+            font-size: 3rem;
+        }
+    } 
+}

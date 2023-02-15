@@ -52,6 +52,9 @@ isExpanded =false;
               <a href="Upholstering">Upholstering</a>
           </li>
           <li className={isNavExpandedMNI}>
+              <a href="Gallery">Gallery</a>
+          </li>
+          <li className={isNavExpandedMNI}>
               <a href="Contact">Contact</a>
           </li>
       </ul>
