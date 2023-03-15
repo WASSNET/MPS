@@ -33,7 +33,12 @@ const Gallery = () =>{
 
           <GallerySlider/>
            
-      
+      <br></br>
+
+
+      <h4>Slide to see before and after</h4>
+
+      <br></br>
             <div className="contentWrapper">
               <ReactCompareImage className="imger" leftImage={BtruckBefore} rightImage={BtruckAfter} />
               <br></br>

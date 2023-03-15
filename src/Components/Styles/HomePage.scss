@@ -15,14 +15,18 @@ img{
 }
 
 .homePg-Header{
- text-align: center;
- justify-content: center;
+
 background-image: url(../images/logo.png);
-width: 95vw;
-height: 20vh;
+width: 100vw;
+height: 45vh;
 background-repeat: no-repeat;
 background-size: contain;
 margin: auto;
+
+margin-top: 1rem;
+text-align: center;
+justify-content: center;
+
 }
 h3{
     font-size: 2.2rem;
@@ -55,14 +59,7 @@ h3{
         color: black;
 box-shadow: 0 0 10px 5px black;
      }
-     li:hover{
-        background-color: rgb(48, 47, 47);
-        list-style: none;
-         margin: 1rem;
-         width: 75vw;
-         color: #E0BB20;
- box-shadow: 0 0 10px 5px #841818;
-      }
+
 }
 
 a:hover{
@@ -124,6 +121,7 @@ hr{
     background-repeat: no-repeat;
     background-size: contain;
     margin: auto;
+   
 
     }
     h3{
@@ -167,20 +165,16 @@ hr{
    background-position: center;
    margin: auto;
    margin-bottom: 3rem;
-   margin-top: 3.5rem;
+   margin-top: 5rem;
    }
 
    
 .sidePanel{
-    background-image: url(../images/sidePanel.png);
-    width: 25vw;
-    height:120vh;
-    display: inline;
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin:0;
-    margin-top: 2rem;
+    background-image: url(../images/HorPanel.png);
+    width: 100vw;
+    height:200px;
+display: block;
+
     background-size: contain;
     background-repeat: no-repeat;
 }

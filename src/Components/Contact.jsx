@@ -9,21 +9,24 @@ return(
 </div>
 
 <div className="contactInfo">
-<h3>CALL</h3>
+<h3>We're a call or click away!</h3>
+<p>Mike: (084) 991-2894</p>
+
 <p>Quinton: (065) 887-7741</p>
-<p>Riaan: (084) 404-6367</p>
+
 <p>Ryan: (062) 244-8080</p>
-<br></br>
-<p>UPHOLSTERY</p>
+
 <p>Charlotte: (084) 588-2137</p>
+
 <br></br>
 <h3>Email</h3>
-<p>Quinton: Admin@MPSZA.co.za</p>
-<p>Riaan: Sales@MPSZA.co.za</p>
-<p>Ryan: Technical@MPSZA.co.za</p>
-<br></br>
-<p>UPHOLSTERY</p>
-<p>Charlotte: Charlotte@MPSZA.co.za</p>
+<div className="emails">
+<p>Admin@MikeFourieTruckplant.co.za</p>
+<p>Sales@MikeFourieTruckplant.co.za</p>
+<p>Technical@MikeFourieTruckplant.co.za</p>
+</div>
+
+
 </div>
 
 <div className="contactAddress">
@@ -31,7 +34,11 @@ return(
 </div>
 <div className="contactHeaders">
 <h3>Or Visit us</h3>
-<h4>83 Phlox Road, Welgedacht SH, Springs</h4>
+<h4>We are open Monday to Thursday 07H00 - 17H00 <br></br>
+Friday 07H00 - 14H30 <br></br>
+Closed Saturday, Sunday and Public Holidays</h4>
+<br></br>
+<h3>83 Phlox Road, Welgedacht SH, Springs</h3>
 
 </div>
 

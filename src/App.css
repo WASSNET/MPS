@@ -1,4 +1,41 @@
+
+@font-face {
+    font-family:"magistral";
+    src: url("./Components/Styles/Magistral-Book.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family:"prometo";
+    src: url("./Components/Styles/Prometo-Light.ttf") format('truetype');
+  }
+
 *{
     margin: 0;
     overflow-x: hidden;
+}
+
+p
+{
+font-family: prometo;
+}
+
+li{
+    font-family: prometo;
+}
+
+h1{
+    font-family: magistral;
+}
+
+h2
+{
+    font-family: magistral;
+}
+
+h3{
+    font-family: magistral;
+}
+
+h4{
+    font-family: magistral;
 }

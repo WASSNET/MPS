@@ -43,6 +43,11 @@
     }
 }
 
+.emails p
+{
+    text-align: left;
+}
+
 .contactInfo{
     justify-content: center;
     justify-items: center;
@@ -62,6 +67,10 @@
 
 @media(min-width:32rem)
 {
+    .emails p
+{
+    text-align: center;
+}
     .ContactContainer{
         display: flex;
         flex-direction: row;

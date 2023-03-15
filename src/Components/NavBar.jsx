@@ -4,7 +4,8 @@ import  {useState} from 'react';
 
 
 
-function NavBar  ()  {
+function NavBar  ()  
+{
 const toggleBtnClass="";
 const path = window.location.pathname;
 const pathname = path.replace(/[^a-zA-Z0-9 ]/g, '');
@@ -48,9 +49,9 @@ isExpanded =false;
           <li className={isNavExpandedMNI}>
               <a href="Services">Services</a>
           </li>
-          <li className={isNavExpandedMNI}>
+          {/* <li className={isNavExpandedMNI}>
               <a href="Upholstering">Upholstering</a>
-          </li>
+          </li> */}
           <li className={isNavExpandedMNI}>
               <a href="Gallery">Gallery</a>
           </li>

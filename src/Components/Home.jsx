@@ -10,15 +10,20 @@ const Home=()=>{
 
     return(  <div className="homePg homePg-Container">
 
-    <SidePanelPg />
+
 
     <div className="homePg homePg-Header">
-    
+
     </div>
     
+
     <div className="homePg homePg-ImgSlide">
        <HomePgSlide />
     </div>
+
+    <SidePanelPg />
+
+
       <HomePgServices/>
     </div>)
   

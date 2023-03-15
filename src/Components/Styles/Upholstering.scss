@@ -11,10 +11,11 @@ background-image: linear-gradient(black, white);
 
 .upholsteringHeader{
     text-align: center;
-    background-image: url(../images/upholseteringHeader.png);
+    background-image: url(../images/up1.jpg);
+    background-repeat: no-repeat;
     width: 100vw;
     height: 24.5vh;
-    background-size: contain;
+    background-size: cover;
     padding: 0;
     margin: auto;
     h1{

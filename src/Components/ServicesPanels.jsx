@@ -12,8 +12,10 @@ export const ServicesPanels = () =>{
     <div className="servicespanel">
     <ul>
     <div className="refurbishingIcon" />
-    <h4>We Do Refurbishing, Rebuilds, and Panel-Beating</h4>
-    <li>Of Commercial, industrial, private and agricultural Vehicles, trailers and campers</li>
+    <h4>Rebuilds | Refurbishment | Repairs | Services </h4>
+    <li>Commercial | Construction | Industrial | Agricultural | Vehicles | Articulated | Wheeled | Track-Driven</li>
+    <hr></hr>
+    <li>Axles | Chassis | Drive trains | Engines | Gearboxes | Hydraulics | Panel Repairs | Steering | Suspension</li>
     </ul>
     </div>
 
@@ -23,9 +25,10 @@ export const ServicesPanels = () =>{
     <div className="servicespanel">
     <ul>
     <div className="sandBlastingIcon" />
-    <h4>Sand Blasting And Painting </h4>
-    <li>High Quality Sand Blasting And Spray Painting</li>
-    <li>For all vehicle and material types</li>
+    <h4>Sand Blasting | Spray Painting | Specialized Welding </h4>
+    <li>Commercial | Construction | Industrial | Agricultural | Vehicles | Articulated | Wheeled | Track-Driven</li>
+    <hr></hr>
+    <li>2K Automotive | Specialized Surface Treatment | Rust Treatment | Rubberizing | Boiler Making | Modifications</li>
 
     </ul>
 </div>
@@ -34,9 +37,10 @@ export const ServicesPanels = () =>{
     <div className="servicespanel">
     <ul>
     <div className="servicingIcon" />
-    <h4>Servicing</h4>
-    <li>Of all vehicle and trailer types</li>
-    <li>Onsite and offsite services and call-outs</li>
+    <h4>Emergency | On-Site | Roadside Assistance | Towing</h4>
+    <li>Commercial | Construction | Industrial | Agricultural | Vehicles | Articulated | Wheeled | Track-Driven</li>
+    <hr></hr>
+    <li>Axles | Chassis | Drive trains | Engines | Gearboxes | Hydraulics | Panel Repairs | Steering | Suspension</li>
 
     </ul>
 </div>
@@ -44,10 +48,10 @@ export const ServicesPanels = () =>{
 <div className="servicespanel">
 <ul>
 <div className="upholsteringIcon" />
-    <h4>Upholstering</h4>
-    <li>Of all types of vehicles and furniture</li>
-    <li>High quality restoration or replacement</li>
-    <li>We work with all types of materials and fabrics</li>
+    <h4>Trimming | Upholstering</h4>
+    <li>Commercial | Construction | Industrial | Agricultural | Vehicles | Equipment</li>
+    <hr></hr>
+    <li>Drivers Seat | Operators Seat | Steering Wheel | Floor Matting | Interior Trimming | Protective Covers </li>
     </ul>
 </div>
 

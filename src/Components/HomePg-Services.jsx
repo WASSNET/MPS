@@ -20,26 +20,36 @@
 
 <ul className="homePg homePg-whatWeDo">
 
-<h3>Here at MPS we offer a wide range of skills and services</h3>
+<h3>We offer a wide range of skills and services</h3>
 
 <hr></hr>
 
-<img className="homePg-icon" src={icon6} alt="ICON image" style={{height:"100px", width:"100px"}} />
 
 
-<li >
-{content.homePgAboutTxt}
+
+<li className="mainHomeBlock">
+
+
+<p className="mainHomeTxt">{content.homePgAboutTxt}</p>
+
 </li>
 
-<img className="homePg-icon" src={icon4} alt="ICON image" style={{height:"100px", width:"100px"}} />
-<li>
-{content.homePgServicesTxt}
+
+<li className="skillsHomeBlock paintHomeBlock">
+<h6 className="paintHomeTxt"><h4>We Specialize in:</h4><br></br>
+Truck, Plant, Construction and Agricultural Equipment.<br></br>
+Repainting, Sand Blasting, Welding, Refurbishment<br></br>
+Axles Engines, Gearboxes, Pneumatics, Suspension</h6>
+
+
 </li>
 
-<img className="homePg-icon" src={icon2} alt="ICON image" style={{height:"100px", width:"100px"}} />
-<li>
 
-{content.homeCbUpholstery}
+<li className="upholsteryHomeBlock">
+
+<h6 className="upholsteryHomeTxt"><h4>We Specialize in:</h4><br></br>
+Trimming of seats, steering wheels, floor mats.<br></br> 
+For more information please see our services page</h6>
 </li>
 <br></br>
 <h3 className="servicesLink"><a href="services">Have a look at our services page to learn more</a> </h3>

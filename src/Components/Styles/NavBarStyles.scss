@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family:"magistral";
+  src: url("Magistral-Book.ttf") format('truetype');
+}
 .main-header{
     width: 100%;
   
@@ -6,7 +9,7 @@
   position: fixed;
   top: 0;
   z-index: 10;
-  font-family: 'Patrick Hand', cursive;
+ 
   font-size:1.3rem;
   
   }
@@ -42,6 +45,7 @@
     color:lightgrey;
     font-size: 1.3rem;
     display: none;
+    font-family:  magistral;
   }
   
   
@@ -140,9 +144,7 @@
       position: fixed;
       top: 0;
       z-index: 2;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+
       font-size:1.3rem;
       }
   
